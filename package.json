@@ -1,0 +1,24 @@
+{
+  "name": "@x10sion/rpc",
+  "version": "1.0.1",
+  "private": false,
+  "description": "A lightweight and robust library to facilitate seamless Remote Procedure Call (RPC) communication between service workers and Chrome extension components",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "piyush panpaliya panpaliyapiyush0@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
